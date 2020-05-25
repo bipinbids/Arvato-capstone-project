@@ -21,19 +21,19 @@ Part three :- The optimized and tuned model from the previous part is deployed a
 ## Files 
 - final_project_submission.ipynb
 	-A jupyter notebook that performs all the tasks described in the project overview and produces a csv named final_submission.csv.
--manually_created_csv.csv	
+- manually_created_csv.csv	
 	-This file was manually created ,this file consist feature name, missing information for each type that was seen, along with its type
--workspace_utils.py
+- workspace_utils.py
 	-This file was provided by the tech support of udacity and was used to execute a long running code without shutting down the workspace
--README.md
+- README.md
 	-Read this first to have a brief idea about the project.
 
 ## Most Helpful Libraries Used
--[Sklearn](https://scikit-learn.org/stable/)
--[Matplotlib](https://matplotlib.org/)
--[Seaborn](https://seaborn.pydata.org/)
--[NumPy](https://numpy.org/)
--[Pandas](https://pandas.pydata.org/)
+- [Sklearn](https://scikit-learn.org/stable/)
+- [Matplotlib](https://matplotlib.org/)
+- [Seaborn](https://seaborn.pydata.org/)
+- [NumPy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
 
 ## What Do The Results Say?
 
@@ -48,11 +48,11 @@ ROC AUC was used as a measure to evaluate the performance of the classifiers ins
 gradient boosting clearly outperforms its competitors. One of the main reasons for this behavior might be because gradient boost has a built-in approach for handling class inbalance and this greatly helped in our case, themodel further under went an optimization using gridsearch.
 
 The top five most important features according to the trained and optmised model are
--D19_SOZIALES
--ANZ_KINDER
--D19_BANKEN_LOKAL
--D19_GARTEN	
--GEBURTSJAHR
+1) D19_SOZIALES
+2) ANZ_KINDER
+3) D19_BANKEN_LOKAL
+4) D19_GARTEN	
+5) GEBURTSJAHR
 
 ## REFERENCES
 1) [How to find optimal number of clusters](https://blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f)
